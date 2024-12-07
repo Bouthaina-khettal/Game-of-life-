@@ -1,27 +1,18 @@
+// cell.h
 #ifndef CELL_H
 #define CELL_H
 
-enum class CellState {
-    DEAD,
-    ALIVE
-};
-
 class Cell {
 public:
-    // Constructeur avec état par défaut
-    Cell(CellState state = CellState::DEAD);
+    enum class State { Dead, Alive };
 
-    // Getter et Setter
-    CellState getState() const;
-    void setState(CellState newState);
+    Cell() : state(State::Dead) {}
 
-    // Fonction pour inverser l'état de la cellule
-    void toggleState();
+    State getState() const { return state; }
+    void setState(State s) { state = s; }
 
 private:
-    CellState state;  // L'état de la cellule
+    State state;
 };
 
-#endif
-
-
+#endif // CELL_H

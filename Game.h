@@ -1,21 +1,26 @@
+// Game.h
 #ifndef GAME_H
 #define GAME_H
 
-#include "Grid.h"
-
+#include "grid.h"
 #include <string>
+
 class Game {
 public:
     Game(int width, int height);
-    void run(int maxIterations);
-    void saveGameState(const std::string& filename) const;
+
+    void update();
+    const Grid& getGrid() const;
+    Grid& getGrid();
+    Cell::State getState(int x, int y) const;
+
+    int getWidth() const;
+    int getHeight() const;
+
+    void loadFromFile(const std::string& filename);
 
 private:
     Grid grid;
 };
 
-#endif
-
-
-
-
+#endif // GAME_H
