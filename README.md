@@ -78,5 +78,27 @@ Avant de compiler et d'exécuter le projet, assurez-vous d'avoir les éléments 
 - Un éditeur de texte ou IDE (comme Visual Studio Code ou visual studio).
 
  ## Comment lancer le jeu? 
- 
+Voici une capture d'écran contenant toutes les instructions à suivre:
+![image](https://github.com/user-attachments/assets/92371ecb-9fa5-48e3-b9c9-3823810d4e9a)
+
+Mode Console:
+![image](https://github.com/user-attachments/assets/64cd03fe-ba5e-4e58-9d8c-b4d78bce1e96)
+
+![image](https://github.com/user-attachments/assets/078948b7-8fdc-4ab4-818f-2d54e941f887)
+
+Mode Graphique:
+![image](https://github.com/user-attachments/assets/6ed2662f-f786-41b8-b607-d96443269950)
+![image](https://github.com/user-attachments/assets/49783931-3a92-46e1-9c0a-b9ccc1129841)
+![image](https://github.com/user-attachments/assets/73747f9e-a6e1-4ea5-9146-9937812b5447)
+
+Bouton vert :start
+/Bouton bleu:accelerer la vitesse
+/Bouton rouge: renitialiser la grille 
+/utiliser la souris pour dessiner les cellules vivantes sur la grille.
+
+## Auteurs
+
+- **KHETTAL Bouthaina**
+- **BAGHEDALI Nada** 
+
  
